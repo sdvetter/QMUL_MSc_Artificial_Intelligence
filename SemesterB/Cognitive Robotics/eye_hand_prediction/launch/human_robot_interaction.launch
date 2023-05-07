@@ -1,0 +1,22 @@
+<launch>
+    <node 
+        pkg="cr_week6_test" 
+        type="interaction_generation.py" 
+        name="interaction_generator">
+    </node>
+    <node 
+        pkg="cr_week6_test" 
+        type="perception_filter.py" 
+        name="perception_filter">
+    </node>
+    <node 
+        pkg="cr_week6_test" 
+        type="robot_controller.py" 
+        name="robot_controller">
+    </node>
+    <node 
+        pkg="cr_week6_test" 
+        type="robot_expression_prediction.py" 
+        name="expression_prediction_service">
+    </node>
+</launch>

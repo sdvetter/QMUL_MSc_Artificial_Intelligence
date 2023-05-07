@@ -1,0 +1,6 @@
+bool is_gaze_congruent
+bool is_preshape_congruent
+uint8 time_interval
+---
+float32 prediction_accuracy
+
